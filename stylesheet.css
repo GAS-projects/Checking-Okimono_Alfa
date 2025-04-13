@@ -1,0 +1,42 @@
+#flex_form{
+    display:flex;
+    margin: 0 10px;
+}
+#picture_form_h{
+    border:medium;
+    text-align:center;
+    background-color:rgb(175, 175, 175);
+    margin-left:0;
+    width:30%;
+    height:30%;
+    padding:5px;
+    border-radius:10px;
+}
+#timer_form_h{
+    border:medium;
+    text-align:center;
+    background-color:rgb(175, 175, 175);
+    margin-left:0;
+    width:20%;
+    height:20%;
+    padding:5px;
+    border-radius:10px;
+    margin-left:20px;
+}
+#all_form{
+    text-align:center;
+    background-color:white;
+    padding:10px;
+    margin:auto;
+    border-radius:15px;
+}
+.all{
+    background-color:aquamarine;
+    padding:10px;
+}
+ul{
+    list-style-position: inside;
+}
+ol{
+    list-style-position: inside;
+}
