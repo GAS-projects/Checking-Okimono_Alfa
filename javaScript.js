@@ -60,7 +60,6 @@ const Beep = (num) =>{
         alert("置物" + (num + 1) + "はちゃんと取りましたか？");
         clearInterval(intervalID)
     }, 1000);
-    iftake[num] = true;
 }
 
 const Timer = () => {
