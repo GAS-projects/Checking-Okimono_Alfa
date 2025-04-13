@@ -14,8 +14,8 @@ window.addEventListener('load', function(){
 
 const cameraWidth = 350;
 const cameraHeight = 350;
-const cameraWidthMobile = 300;
-const cameraHeightMobile = 300;
+const cameraWidthMobile = 200;
+const cameraHeightMobile = 200;
 //スマホからの閲覧か
 const isMobile = navigator.userAgent.match(/iPhone|Android/);
 
