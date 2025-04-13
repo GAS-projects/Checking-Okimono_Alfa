@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="stylesheet.css" type="text/css">
+        <script src="javaScript.js"></script>
+        <audio id="beep_audio">
+            <source src="Okimono_audio.mp3" type="audio/mp3">
+        </audio>
+        <title>置物チェッカー</title>
+    </head>
+    <body class="all">
+        <form id="all_form">
+            <h1>置物チェッカー</h1>
+            <hr>
+                <ul id="flex_form">
+                    <div id="picture_form_h">
+                    <h3>置物写真</h3>
+                    <ul id="picture_form">
+                    </ul>
+                    </div>
+                    <div id="timer_form_h">
+                    <h3>タイマー</h3>
+                    <ol id="timer_form">
+                    </ol>
+                    </div>
+                </ul>
+            <input type="range" min="10" max="600" step="10" value="60" id="timer_slider">
+            <div id="timer_value">タイマー秒数:60</div>
+            <input type="button" value="ものを置く📷" id="push" onclick="shoot()">
+            <input type="button" value="ものを取る💼" id="take" onclick="Take()">
+            <div>置物の総数:</div><span id="num_things"></span>
+            <div>
+                <video id="camera" autoplay muted playsinline></video>
+            </div>
+            <p>コチラはオープンソースです。誰でも利用・複製ができます。</p>
+        </form>
+    </body>
+</html>
