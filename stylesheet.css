@@ -6,9 +6,12 @@
     border:medium;
     text-align:center;
     background-color:rgb(175, 175, 175);
-    margin-left:0;
     width:50%;
     height:50%;
+    padding-left:0;
+    li{
+        list-style:none;
+    }
     padding:5px;
     border-radius:10px;
 }
@@ -16,9 +19,12 @@
     border:medium;
     text-align:center;
     background-color:rgb(175, 175, 175);
-    margin-left:0;
     width:50%;
     height:50%;
+    padding-left:0;
+    li{
+        list-style:none;
+    }
     padding:5px;
     border-radius:10px;
     margin-left:20px;
