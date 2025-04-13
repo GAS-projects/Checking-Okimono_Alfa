@@ -78,7 +78,6 @@ const Timer = () => {
     tli.innerHTML = "置物" + (arrayNum + 1) + "を" + timerSlider.value + "秒後に通知します。";
     let intervalID = setInterval(() => {
         Beep(arrayNum);
-        Bib(arrayNum);
         clearInterval(intervalID);
     }, timerSlider.value * 1000);
     tlist.prepend(tli);
